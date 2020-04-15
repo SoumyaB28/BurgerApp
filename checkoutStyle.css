@@ -1,0 +1,41 @@
+img{
+    height:25px;
+    width:25px;
+}
+
+#orderbutton{
+    background-color: blue;
+    color:white;
+    border-radius: 5px;
+
+}
+
+#table, td{
+    border: 1px solid wheat;
+    border-spacing: 5px;
+    border-collapse: collapse;
+    color: wheat;
+    font-weight: bold;
+
+}
+td{
+    border-left: none;
+    border-right: none;
+    padding-left: 15px;
+}
+#table{
+    margin-top: 100px;
+}
+
+body{
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#order{
+    margin-top: 20px;
+}
+#visib{
+    visibility: hidden;
+    color:wheat;
+}

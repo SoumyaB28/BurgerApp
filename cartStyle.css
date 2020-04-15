@@ -1,0 +1,67 @@
+#heading{
+    color: yellow;
+}
+#listimg{
+    height:35px;
+    width:40px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+#listItems{
+    margin-top: 50px;
+    
+}
+#list{
+    list-style-type: none;
+}
+li{
+    margin-right: 290px;
+    color: bisque;
+    
+}
+#orderbut{
+    background-color: blue;
+    color:white;
+    border-radius: 7px;
+    height:30px;
+    width:100px;
+}
+#cartbody{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+#addbut1,#addbut2,#addbut3,#addbut4,#addbut5{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+#type:hover{
+    background-color:#cccccc;
+    border-radius:5px;
+    
+}
+#content{
+    margin-left: 300px;
+}
+#quantity1,#quantity2,#quantity3,#quantity4,#quantity5{
+    width:30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#minus1,#minus2,#minus3,#minus4,#minus5{
+    margin-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: green;
+    color:white;
+}
+#plus1,#plus2,#plus3,#plus4,#plus5{
+    margin-right: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Items</title>
+    <link rel = "stylesheet" href="./cartStyle.css">
+    <script src = "./cartApp.js"></script>
+</head>
+<body id="cartbody" background="./Resources/2663696.jpg">
+    <div id="content">
+    <div id="heading" align="center">
+        <h1>Burger Chef - The Burger Joint</h1>
+        <h3>Burgers of all varieties</h3>
+    </div>
+    <div id="listItems" align="center">
+        <ul id="list">
+            <li align="right">
+                <label id="lab">Crispy Supreme</label>
+                <img src="./Resources/veg-supreme-500X540_0.png" id="listimg">
+                <select id="type">
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="veg">Veg</option>
+                </select>
+                <input type="button" id="minus1" value="-">
+                <input type="number" id="quantity1" value=0>
+                <input type="button" id="plus1" value="+">
+                <input type="button" id="addbut1" value="Add to Cart">
+            </li>
+            <br>
+
+            <li align="right">
+                <label id="lab">Surprise</label>
+                <img src="./Resources/surprise burger.jpg" id="listimg">
+                <select id="type">
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="veg">Veg</option>
+                </select>
+                <input type="button" id="minus2" value="-">
+                <input type="number" id="quantity2" value=0>
+                <input type="button" id="plus2" value="+">
+                <input type="button" id="addbut2" value="Add to Cart">
+            </li>
+            <br>
+            <li align="right">
+                <label id="lab">WHOPPER</label>
+                <img src="./Resources/whopper.jpg" id="listimg">
+                <select id="type">
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="veg">Veg</option>
+                </select>
+                <input type="button" id="minus3" value="-">
+                <input type="number" id="quantity3" value=0>
+                <input type="button" id="plus3" value="+">
+                <input type="button" id="addbut3" value="Add to Cart">
+            </li>
+            <br>
+            <li align="right">
+                <label id="lab">Chilli Cheese</label>
+                <img src="./Resources/1382375812129.jpeg" id="listimg">
+                <select id="type">
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="veg">Veg</option>
+                </select>
+                <input type="button" id="minus4" value="-">
+                <input type="number" id="quantity4" value=0>
+                <input type="button" id="plus4" value="+">
+                <input type="button" id="addbut4" value="Add to Cart">
+            </li>
+            <br>
+
+            <li align="right">
+                <label id="lab">Tandoor Grill</label>
+                <img src="./Resources/tandoorBurger.jpg" id="listimg">
+                <select id="type">
+                    <option value="egg">Egg</option>
+                    <option value="chicken">Chicken</option>
+                    <option value="veg">Veg</option>
+                </select>
+                <input type="button" id="minus5" value="-">
+                <input type="number" id="quantity5" value=0>
+                <input type="button" id="plus5" value="+">
+                <input type="button" id="addbut5" value="Add to Cart">
+            </li>
+        </ul>
+    </div>
+    <div align="center">
+        <br><br>
+        <input type = "button" id="orderbut" value="View Cart">
+    </div>
+</div>
+    <script>
+        document.getElementById("addbut1").addEventListener('click',onAdd,true);
+        document.getElementById("addbut2").addEventListener('click',onAdd,true);
+        document.getElementById("addbut3").addEventListener('click',onAdd,true);
+        document.getElementById("addbut4").addEventListener('click',onAdd,true);
+        document.getElementById("addbut5").addEventListener('click',onAdd,true);
+
+        document.getElementById("orderbut").addEventListener('click',onOrder,true);
+
+        document.getElementById("minus1").addEventListener('click',onMinusButton,true);
+        document.getElementById("minus2").addEventListener('click',onMinusButton,true);
+        document.getElementById("minus3").addEventListener('click',onMinusButton,true);
+        document.getElementById("minus4").addEventListener('click',onMinusButton,true);
+        document.getElementById("minus5").addEventListener('click',onMinusButton,true);
+
+        document.getElementById("plus1").addEventListener('click',onPlusButton,true);
+        document.getElementById("plus2").addEventListener('click',onPlusButton,true);
+        document.getElementById("plus3").addEventListener('click',onPlusButton,true);
+        document.getElementById("plus4").addEventListener('click',onPlusButton,true);
+        document.getElementById("plus5").addEventListener('click',onPlusButton,true);
+
+    </script>    
+    
+    
+</body>
+</html>

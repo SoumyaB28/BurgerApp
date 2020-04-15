@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./checkoutStyle.css">
+    <script src="./checkoutApp.js"></script>
+</head>
+<body background="./Resources/tablebg.jpg">
+    
+        <table id="table" align="center" frame="border">
+            <caption><h1>Checkout Table</h1></caption>
+            <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">PPU</th>
+            <th scope="col">Price</th>
+            <th scope="col">Remove</th>
+        </tr>
+            
+        
+            
+        </table>
+
+        <div id="visib" align="center">
+            <p>You are missing out on the burgers!! Order Now!!</p>
+        </div>
+
+        <div id="order" align="center">
+            <input type = "button" id="orderbutton" value="Order">
+        </div>
+    
+    <script>
+       document.getElementById("table").onload = afterTableLoad();
+       document.getElementById("orderbutton").addEventListener('click',onOrderButton,true);
+    </script>
+    
+</body>
+</html>

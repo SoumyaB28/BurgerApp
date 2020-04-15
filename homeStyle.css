@@ -1,0 +1,44 @@
+#label{
+    margin-bottom: 40px;
+    
+    font-size: large;
+  
+    
+    padding: 5px;
+}
+#lab{
+    border-radius: 5px;
+    height: 25px;
+    
+}
+body{
+    height: 150%;
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+#info{
+    margin-top: 560px;
+    border-width: 5px;
+    border-color: black;
+    
+}
+#sub{
+    margin-top: 30px;
+}
+#heading{
+    color: black;
+}
+#subB{
+    border-radius: 5px;
+    border-color: brown;
+}
+#mobNum{
+    border-width: 5px;
+    border-color: brown;
+    border-radius: 5px;
+    height: 25px;
+}
+#inpBox{
+    
+}
